@@ -12,6 +12,10 @@ Cardin Green (#0C1A1A), downy teal (#6ACFC7)
 
 
 
+#44195e  Scarlet Gum
+#402b4c  Martinique
+#47294c Bossanova
+
 ------- Background -------
  Beige       (#DDD0C8),     Antic Didone 
  Light beige (#FDF8F0),     
@@ -33,3 +37,7 @@ Cardin Green (#0C1A1A), downy teal (#6ACFC7)
 
 
  ------- x -------
+
+
+
+decide to font later
