@@ -20,8 +20,10 @@ const Navbar = () => {
       <ul className="hidden md:flex">
         <li>Home</li>
         <li>About</li>
-        <li>Skills</li>
+        <li>Experience</li>
+        <li>Features</li>
         <li>Portfolio</li>
+        <li>Blog</li>
         <li>Contact</li>
       </ul>
 
@@ -39,8 +41,10 @@ const Navbar = () => {
       >
         <li className="py-6 text-4xl">Home</li>
         <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
+        <li className="py-6 text-4xl">Experience</li>
+        <li className="py-6 text-4xl">Features</li>
         <li className="py-6 text-4xl">Portfolio</li>
+        <li className="py-6 text-4xl">Blog</li>
         <li className="py-6 text-4xl">Contact</li>
       </ul>
       {/* ------------- Social Icons ------------- */}
