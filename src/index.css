@@ -3,3 +3,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+
+/* Font Antic Didone */
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+body {
+    font-family: 'Antic Didone', sans-serif;
+}
+
+li {
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: pointer;
+}
