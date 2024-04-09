@@ -10,12 +10,12 @@ import Css from "../assets/images/experience/css.png";
 
 const Experience = () => {
   return (
-    <div name="experience" className="bg-[#DDD0C8]  text-[#402b4c]">
+    <div name="experience" className="w-full h-screen bg-[#DDD0C8]  text-[#402b4c]">
       {/* ------------- Container ------------- */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="">
           <p className="text-[#402b4c] text-3xl font-bold inline border-b-4 border-[#44195e]"> Experience</p>
-          <p className="py-4">These are the technologies I've worked with </p>
+          <p className="py-4">//These are the technologies I've worked with </p>
         </div>
         {/* boxes */}
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
