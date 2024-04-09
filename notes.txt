@@ -10,6 +10,7 @@ Cardin Green (#0C1A1A), downy teal (#6ACFC7)
 
  #f5eec2 #416a59 #39395f #73a24e #a9c25d
 
+bg-[#DDD0C8]
 
 
 #44195e  Scarlet Gum
