@@ -1,27 +1,26 @@
-import Navbar from "./components/Navbar/Navbar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Experience from "./pages/Experience";
-import Features from "./pages/Features";
-import Portfolio from "./pages/Portfolio";
-import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
+import { Outlet } from 'react-router-dom'
+import './App.css'
 
 
+import Navbar from './component/Navbar'
 
-function App() {
+
+const App = () => {
+
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Experience />
-      <Features />
-      <Portfolio />
-      <Blog />
-      <Contact />
-    </div>
-  );
+    <>
+<div className='mainContent'>
+
+<Navbar/>
+  <section style={{scrollBehavior: "smooth"}}>
+    
+
+    <Outlet />
+  </section>
+
+</div>
+    </>
+  )
 }
 
-export default App;
+export default App
