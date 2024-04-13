@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Finance",
+    "category": "Web Development",
+    "image": "../../../public/images/portfolio/1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Orizon",
+    "category": "Web Development",
+    "image": "../../../public/images/portfolio/1.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Fundo",
+    "category": "Web Design",
+    "image": "../../../public/images/portfolio/3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Brawlhalla",
+    "category": "Web Applications",
+    "image": "../../../public/images/portfolio/4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "DSM.",
+    "category": "Web Design",
+    "image": "../../../public/images/portfolio/5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "MetaSpark",
+    "category": "Web Design",
+    "image": "../../../public/images/portfolio/6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Summary",
+    "category": "Web Development",
+    "image": "../../../public/images/portfolio/1.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Task Manager",
+    "category": "Web Applications",
+    "image": "../../../public/images/portfolio/1.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Arrival",
+    "category": "Web Development",
+    "image": "../../../public/images/portfolio/1.jpg"
+  }
+]
