@@ -13,9 +13,7 @@ const App = () => {
 
 <Navbar/>
   <section style={{scrollBehavior: "smooth"}}>
-    
-
-    <Outlet />
+        <Outlet />
   </section>
 
 </div>
