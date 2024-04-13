@@ -31,7 +31,7 @@ const Navbar = () => {
                         <NavLink to="/experience" className='navbarLink'> Experience </NavLink>
                     </li>
                     <li className="">
-                        <NavLink to="/feature" className='navbarLink'> Feature </NavLink>
+                        <NavLink to="/features" className='navbarLink'> Features </NavLink>
                     </li>
                     <li className="">
                         <NavLink to="/portfolio" className='navbarLink'> Portfolio </NavLink>
@@ -71,22 +71,22 @@ const Navbar = () => {
                     {/* //FIXME - - social */}
                     <ul>
                         <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-                            <a className="flex justify-between items-center w-full " href="/">
+                            <a className="flex justify-between items-center w-full " href="#">
                                 Linkedin <FaLinkedin size={30} />
                             </a>
                         </li>
                         <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-                            <a className="flex justify-between items-center w-full " href="/">
+                            <a className="flex justify-between items-center w-full " href="#">
                                 Github <FaGithub size={30} />
                             </a>
                         </li>
                         <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-                            <a className="flex justify-between items-center w-full " href="/">
+                            <a className="flex justify-between items-center w-full " href="#">
                                 Email <HiOutlineMail size={30} />
                             </a>
                         </li>
                         <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-                            <a className="flex justify-between items-center w-full " href="/">
+                            <a className="flex justify-between items-center w-full " href="#">
                                 Resume <BsFillPersonLinesFill size={30} />
                             </a>
                         </li>
