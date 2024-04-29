@@ -1,0 +1,195 @@
+[
+  {
+    "id": 1,
+    "title": "HTML",
+    "category": "Languages",
+    "image": "../../../public/images/experience/html5.svg",
+    "relatedProjects": [
+      {
+        "projectId": 1,
+        "projectTitle": "Finance",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+        "technologies": [
+          {
+            "type": "languages",
+            "list": ["Html", "Js", "Css"]
+          },
+          {
+            "type": "libraries",
+            "list": ["tailwind"]
+          },
+          {
+            "type": "frameworks",
+            "list": ["react"]
+          }
+        ],
+        "projectImage": "/images/portfolio/1.jpg",
+        "siteURL": "https://www.google.com",
+        "GitHub": "https://github.com"
+      },
+      {
+        "projectId": 2,
+        "projectTitle": "Code",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+        "technologies": [
+          {
+            "type": "languages",
+            "list": ["Html", "Js", "Css"]
+          },
+          {
+            "type": "libraries",
+            "list": ["tailwind"]
+          },
+          {
+            "type": "frameworks",
+            "list": ["react"]
+          }
+        ],
+        "projectImage": "/images/portfolio/1.jpg",
+        "siteURL": "https://www.google.com",
+        "GitHub": "https://github.com"
+      },
+      {
+        "projectId": 3,
+        "projectTitle": "Web",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+        "technologies": [
+          {
+            "type": "languages",
+            "list": ["Html", "Js", "Css"]
+          },
+          {
+            "type": "libraries",
+            "list": ["tailwind"]
+          },
+          {
+            "type": "frameworks",
+            "list": ["react"]
+          }
+        ],
+        "projectImage": "/images/portfolio/1.jpg",
+        "siteURL": "https://www.google.com",
+        "GitHub": "https://github.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Js",
+    "category": "Languages",
+    "image": "../../../public/images/experience/javascript.png",
+    "relatedProjects": [
+      {
+        "projectTitle": "Finance",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+        "technologies": [
+          {
+            "type": "languages",
+            "list": ["Html", "Js", "Css"]
+          },
+          {
+            "type": "libraries",
+            "list": ["tailwind"]
+          },
+          {
+            "type": "frameworks",
+            "list": ["react"]
+          }
+        ],
+        "projectImage": "/images/portfolio/1.jpg",
+        "siteURL": "https://www.google.com",
+        "GitHub": "https://github.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Css",
+    "category": "Languages",
+    "image": "../../../public/images/experience/CSS3.png",
+    "relatedProjects": [
+      {
+        "projectTitle": "Finance",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+        "projectImage": "/images/portfolio/1.jpg",
+        "siteURL": "https://www.google.com",
+        "GitHub": "https://github.com"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Jquery",
+    "category": "Libraries",
+    "image": "../../../public/images/experience/jQuery.svg",
+    "relatedProjects": [
+      {
+        "projectTitle": "Financehghgchzxhccxzc",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+        "projectImage": "/images/portfolio/1.jpg",
+        "siteURL": "https://www.google.com",
+        "GitHub": "https://github.com"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Bootstrap",
+    "category": "Libraries",
+    "image": "../../../public/images/experience/Bootstrap.png",
+    "relatedProjects": [
+      {
+        "projectTitle": "Finance",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+        "projectImage": "/images/portfolio/1.jpg",
+        "siteURL": "https://www.google.com",
+        "GitHub": "https://github.com"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Tailwind",
+    "category": "Libraries",
+    "image": "../../../public/images/experience/tailwind.svg",
+    "relatedProjects": [
+      {
+        "projectTitle": "Finance",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+        "projectImage": "/images/portfolio/1.jpg",
+        "siteURL": "https://www.google.com",
+        "GitHub": "https://github.com"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "NodeJS",
+    "category": "Frameworks",
+    "image": "../../../public/images/experience/node.png",
+    "relatedProjects": [
+      {
+        "projectTitle": "Finance",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+        "projectImage": "/images/portfolio/1.jpg",
+        "siteURL": "https://www.google.com",
+        "GitHub": "https://github.com"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "ReactJS",
+    "category": "Frameworks",
+    "image": "../../../public/images/experience/react.png",
+    "relatedProjects": [
+      {
+        "projectTitle": "Finance",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+        "projectImage": "/images/portfolio/1.jpg",
+        "siteURL": "https://www.google.com",
+        "GitHub": "https://github.com"
+      }
+    ]
+  }
+]
