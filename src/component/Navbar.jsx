@@ -72,20 +72,20 @@ const Navbar = () => {
                 <div className="hidden md:flex fixed flex-col top-[35%] left-[10px]">
                   
                     <ul>
-                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8] hover:shadow-md hover:shadow-[#040c16] duration-300">
                             <a className="flex justify-between items-center w-full" href="#">Linkedin <FaLinkedin size={30} />
                             </a>
                         </li>
-                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8]  hover:shadow-md hover:shadow-[#040c16]  duration-300">
                             <a className="flex justify-between items-center w-full " href="#">                               Github <FaGithub size={30} />
                             </a>
                         </li>
-                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8] hover:shadow-md hover:shadow-[#040c16]  duration-300">
                             <a className="flex justify-between items-center w-full " href="#">
                                 Email <HiOutlineMail size={30} />
                             </a>
                         </li>
-                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8] hover:shadow-md hover:shadow-[#040c16] duration-300">
                             <a className="flex justify-between items-center w-full " href="#">
                                 Resume <BsFillPersonLinesFill size={30} />
                             </a>
