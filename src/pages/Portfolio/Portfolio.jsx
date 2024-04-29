@@ -65,16 +65,24 @@ const Portfolio = () => {
 
                     {/* categories */}
                     <div className='inline-flex flex-wrap py-1 sm:px-1 sm:space-x-1  rounded text-sm'>
-                        <button onClick={() => setSelectTab('All')} className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 hover:bg-pink-600 text-gray-500 hover:text-white rounded hover:shadow font-bold focus:outline-none transition duration-200'>
+                        <button
+                            onClick={() => setSelectTab('All')}
+                            className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>
                             All
                         </button>
-                        <button onClick={() => setSelectTab('Web Applications')} className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 hover:bg-pink-600 text-gray-500 hover:text-white rounded hover:shadow font-bold focus:outline-none transition duration-200'>
+                        <button
+                            onClick={() => setSelectTab('Web Applications')}
+                            className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>
                             Web Applications
                         </button>
-                        <button onClick={() => setSelectTab('Web Design')} className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 hover:bg-pink-600 text-gray-500 hover:text-white rounded hover:shadow font-bold focus:outline-none transition duration-200'>
+                        <button
+                            onClick={() => setSelectTab('Web Design')}
+                            className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>
                             Web Design
                         </button>
-                        <button onClick={() => setSelectTab('Web Development')} className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 hover:bg-pink-600 text-gray-500 hover:text-white rounded hover:shadow font-bold focus:outline-none transition duration-200'>
+                        <button
+                            onClick={() => setSelectTab('Web Development')}
+                            className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828] '>
                             Web Development
                         </button>
                     </div>

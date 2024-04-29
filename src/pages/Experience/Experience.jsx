@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import experienceData from  '../../assets/data/experienceData.json';
+import experienceData from '../../assets/data/experienceData.json';
 import ExperienceModal from './ExperienceModal';
 
 const Experience = () => {
@@ -39,11 +39,30 @@ const Experience = () => {
             </div>
           </div>
           {/* categories */}
-          <div className='inline-flex flex-wrap py-1 sm:px-1 sm:space-x-1  rounded text-sm'>
-            <button type="button" onClick={() => setSelectTab('All')} className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 hover:bg-pink-600 text-gray-500 hover:text-white rounded hover:shadow font-bold focus:outline-none transition duration-200'>All Technologies</button>
-            <button type="button" onClick={() => setSelectTab('Languages')} className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 hover:bg-pink-600 text-gray-500 hover:text-white rounded hover:shadow font-bold focus:outline-none transition duration-200'>Languages</button>
-            <button type="button" onClick={() => setSelectTab('Libraries')} className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 hover:bg-pink-600 text-gray-500 hover:text-white rounded hover:shadow font-bold focus:outline-none transition duration-200'>Libraries</button>
-            <button type="button" onClick={() => setSelectTab('Frameworks')} className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 hover:bg-pink-600 text-gray-500 hover:text-white rounded hover:shadow font-bold focus:outline-none transition duration-200'>Frameworks</button>
+          <div
+            className='inline-flex flex-wrap py-1 sm:px-1 sm:space-x-1  rounded text-sm'>
+            <button
+              type="button"
+              onClick={() => setSelectTab('All')}
+              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>All Technologies</button>
+            <button
+              type="button"
+              onClick={() => setSelectTab('Languages')}
+              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>
+              Languages
+            </button>
+            <button
+              type="button"
+              onClick={() => setSelectTab('Libraries')}
+              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>
+              Libraries
+            </button>
+            <button
+              type="button"
+              onClick={() => setSelectTab('Frameworks')}
+              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>
+              Frameworks
+            </button>
           </div>
 
           {/* filter categories */}
