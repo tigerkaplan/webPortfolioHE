@@ -12,15 +12,15 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav);
     return (
         <div>
-            <nav className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#DDD0C8] text-[#323232]">
+            <nav className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#DDD0C8] text-[#323232] z-20 ">
                 {/* ------------- Logo ------------- */}
-                <div>
-                    <img src={Logo} alt="Logo Image" style={{ width: "200px" }} />
+                <div className="h-[175px]">
+                    <img src={Logo} alt="Logo Image" className="object-fit w-full h-full" />
                 </div>
 
                 {/* ------------- Menu ------------- */}
 
-                <ul className="hidden md:flex navbarList ">
+                <ul className="hidden md:flex items-center space-x-8 ">
                     <li className="">
                         <NavLink to="/" className='navbarLink'> Home </NavLink>
                     </li>
@@ -47,7 +47,9 @@ const Navbar = () => {
 
                 {/* ------------- Hamburger Menu ------------- */}
                 <div onClick={handleClick} className="md:hidden z-10">
-                    {!nav ? <FaBars /> : <FaTimes />}
+                    {!nav ? <FaBars size= {25} /> : <FaTimes  size= {25}  />}
+
+                    {/* {nav ? <FaTimes /> : <FaBars />} */}
                 </div>
                 {/* ------------- Mobile Menu ------------- */}
                 <ul
@@ -57,27 +59,25 @@ const Navbar = () => {
                             : "absolute top-0 left-0 w-full h-screen bg-[#DDD0C8] flex flex-col justify-center items-center"
                     }
                 >
-                    <li className="py-6 text-4xl"> <NavLink to="/home"> Home </NavLink> </li>
-                    <li className="py-6 text-4xl"> <NavLink to="/about"> About </NavLink> </li>
-                    <li className="py-6 text-4xl"> <NavLink to="/experience"> Experience </NavLink> </li>
-                    <li className="py-6 text-4xl"> <NavLink to="/features"> Features </NavLink> </li>
-                    <li className="py-6 text-4xl"> <NavLink to="/portfolio"> Portfolio </NavLink> </li>
-                    <li className="py-6 text-4xl"> <NavLink to="/blog"> Blog </NavLink> </li>
-                    <li className="py-6 text-4xl"> <NavLink to="/contact"> Contact </NavLink> </li>
+                    <li className="py-6 text-4xl"> <NavLink to="/" onClick={handleClick}> Home </NavLink> </li>
+                    <li className="py-6 text-4xl"> <NavLink to="/about" onClick={handleClick}> About </NavLink> </li>
+                    <li className="py-6 text-4xl"> <NavLink to="/experience" onClick={handleClick}> Experience</NavLink> </li>
+                    <li className="py-6 text-4xl"> <NavLink to="/features" onClick={handleClick}> Features </NavLink> </li>
+                    <li className="py-6 text-4xl"> <NavLink to="/portfolio" onClick={handleClick}> Portfolio </NavLink> </li>
+                    <li className="py-6 text-4xl"> <NavLink to="/blog" onClick={handleClick}> Blog </NavLink> </li>
+                    <li className="py-6 text-4xl"> <NavLink to="/contact" onClick={handleClick}> Contact </NavLink> </li>
                 </ul>
 
                 {/* ------------- Social Icons ------------- */}
                 <div className="hidden md:flex fixed flex-col top-[35%] left-[10px]">
-                    {/* //FIXME - - social */}
+                  
                     <ul>
                         <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-                            <a className="flex justify-between items-center w-full " href="#">
-                                Linkedin <FaLinkedin size={30} />
+                            <a className="flex justify-between items-center w-full" href="#">Linkedin <FaLinkedin size={30} />
                             </a>
                         </li>
                         <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
-                            <a className="flex justify-between items-center w-full " href="#">
-                                Github <FaGithub size={30} />
+                            <a className="flex justify-between items-center w-full " href="#">                               Github <FaGithub size={30} />
                             </a>
                         </li>
                         <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
