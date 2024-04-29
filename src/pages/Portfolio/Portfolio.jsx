@@ -67,22 +67,22 @@ const Portfolio = () => {
                     <div className='inline-flex flex-wrap py-1 sm:px-1 sm:space-x-1  rounded text-sm'>
                         <button
                             onClick={() => setSelectTab('All')}
-                            className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>
+                            className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'>
                             All
                         </button>
                         <button
                             onClick={() => setSelectTab('Web Applications')}
-                            className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>
+                            className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'>
                             Web Applications
                         </button>
                         <button
                             onClick={() => setSelectTab('Web Design')}
-                            className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>
+                            className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'>
                             Web Design
                         </button>
                         <button
                             onClick={() => setSelectTab('Web Development')}
-                            className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828] '>
+                            className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] '>
                             Web Development
                         </button>
                     </div>
@@ -95,19 +95,20 @@ const Portfolio = () => {
                             portfolios?.slice(0, nextItems).map((portfolio, index) => (
                                 <div
                                     key={index}
-
                                     className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 group cursor-pointer relative flex items-center'>
                                     {/* First box (1/5 width) */}
-                                    {/* <div className="w-1/5 bg-gray-100">
-                                        <div className="h-48 flex items-center justify-center transform -rotate-90 font-bold ">
-                                            <div className='w-1/5'></div>
+                                    <div className="w-1/5 bg-[#d3c3b8] ">
+                                        <div className="h-48 flex items-center justify-center transform -rotate-90 font-bold object-cover ">
+                                            <div className='w-1/5 '></div>
                                             {portfolio.title}
                                         </div>
-                                    </div> */}
+                                    </div>
 
-                                    <figure className='ml-5px'>
-                                        <img className='rounded-[8px]' src={portfolio.image} alt='' />
+                                    {/* Second box (4/5 width) */}
+                                    <figure className='ml-5px w-full h-full'>
+                                        <img className='rounded-[8px] object-cover w-full h-full' src={portfolio.image} alt='' />
                                     </figure>
+
                                     <div className='w-full h-full bg-[#b4aaa3] bg-opacity-40 absolute top-0 left-0 z-[5] hidden group-hover:block'>
                                         <div className='w-full h-full flex items-center justify-center'>
                                             <button
