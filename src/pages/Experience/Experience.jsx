@@ -44,23 +44,25 @@ const Experience = () => {
             <button
               type="button"
               onClick={() => setSelectTab('All')}
-              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>All Technologies</button>
+              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[##cab5a8] hover:border-[#9B928C] text-[#282828] shadow-md shadow-[#c0a899] '>
+                All Technologies
+              </button>
             <button
               type="button"
               onClick={() => setSelectTab('Languages')}
-              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>
+              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group    hover:bg-[##cab5a8] hover:border-[#9B928C] text-[#282828] shadow-md shadow-[#c0a899]'>
               Languages
             </button>
             <button
               type="button"
               onClick={() => setSelectTab('Libraries')}
-              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>
+              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group    hover:bg-[##cab5a8] hover:border-[#9B928C] text-[#282828] shadow-md shadow-[#c0a899]'>
               Libraries
             </button>
             <button
               type="button"
               onClick={() => setSelectTab('Frameworks')}
-              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[#9B928C] hover:border-[#9B928C] text-[#282828]'>
+              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group    hover:bg-[##cab5a8] hover:border-[#9B928C] text-[#282828] shadow-md shadow-[#c0a899]'>
               Frameworks
             </button>
           </div>
@@ -71,8 +73,8 @@ const Experience = () => {
             {experiences?.slice(0, nextItems).map(experience => (
               <div key={experience.id} className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 group cursor-pointer relative flex items-center">
                 {/* First box (1/5 width) */}
-                <div className="w-1/5 bg-gray-100">
-                  <div className="h-48 flex items-center justify-center transform -rotate-90 font-bold">
+                <div className="w-1/5 bg-[#d3c3b8]">
+                  <div className="h-48 flex items-center justify-center transform -rotate-90 font-bold ]">
                     <div className='w-1/5'></div>
                     {experience.title}
                   </div>

@@ -7,10 +7,10 @@ const ExperienceModal = ({ activeID, setShowModal }) => {
 
     // Render modal content if experience is found
     return (
-        <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 ">
-            <div className="max-w-[600px] absolute top-1/2 left-1/2 z-20 bg-[#FDF8F0] rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 overflow-y-auto">
-                <div className="!z-5 relative grid grid-col rounded-[20px] bg-white bg-clip-border p-4 shadow-3xl shadow-shadow-500">
-                    <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t  bg-gray-300  ">
+        <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 bg-[#DDD0C8]">
+            <div className="max-w-[600px] absolute top-1/2 left-1/2 z-20 bg-[#d3c3b8] transform -translate-x-1/2 -translate-y-1/2 overflow-y-auto">
+                <div className="!z-5 relative grid grid-col  bg-[#e7ddd8] bg-clip-border p-4 shadow-3xl shadow-shadow-500 ">
+                    <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t  bg-[#d3c3b8]  ">
                         <h1 className="text-2xl font-bold-2 text-center">
                             Related Projects
                         </h1>
@@ -26,7 +26,7 @@ const ExperienceModal = ({ activeID, setShowModal }) => {
                             Here you can find more details about {experience.title} related projects.
                         </p>
 
-                        <hr className='border-[2px] mt-2' />
+                        <hr className='border-[2px] mt-2 border-[#d3c3b8] '  />
 
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 mt-5">
@@ -48,16 +48,16 @@ const ExperienceModal = ({ activeID, setShowModal }) => {
 
                                     
                                     <div className="px-6 py-4 mb-auto">
-                                        <a href="#" className="font-bold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out  mb-2">
+                                        <a href="#" className="font-bold text-lg inline-block text-[#2f2f2f] transition duration-500 ease-in-out  mb-2">
                                             {project.projectTitle}
                                         </a>
-                                        <p className="text-gray-500 text-xs  whitespace-nowrap">
+                                        <p className="text-[#323232] text-xs  whitespace-nowrap">
                                             {project.description}
                                         </p>
                                     </div>
 
 
-                                    <div className="px-6 py-3 flex flex-row items-center justify-between bg-gray-100">
+                                    <div className="px-6 py-3 flex flex-row items-center justify-between bg-[#d3c3b8]">
                                         <span href="#"
                                             className='py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center'>
                                             <span className="ml-1"><a href={project.GitHub}> <FaGithub size={25} /> </a></span>
