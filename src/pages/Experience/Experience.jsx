@@ -44,38 +44,38 @@ const Experience = () => {
             <button
               type="button"
               onClick={() => setSelectTab('All')}
-              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group   hover:bg-[##cab5a8] hover:border-[#9B928C] text-[#282828] shadow-md shadow-[#c0a899] '>
+              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] '>
                 All Technologies
               </button>
             <button
               type="button"
               onClick={() => setSelectTab('Languages')}
-              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group    hover:bg-[##cab5a8] hover:border-[#9B928C] text-[#282828] shadow-md shadow-[#c0a899]'>
+              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'>
               Languages
             </button>
             <button
               type="button"
               onClick={() => setSelectTab('Libraries')}
-              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group    hover:bg-[##cab5a8] hover:border-[#9B928C] text-[#282828] shadow-md shadow-[#c0a899]'>
+              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group  hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'>
               Libraries
             </button>
             <button
               type="button"
               onClick={() => setSelectTab('Frameworks')}
-              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group    hover:bg-[##cab5a8] hover:border-[#9B928C] text-[#282828] shadow-md shadow-[#c0a899]'>
+              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'>
               Frameworks
             </button>
           </div>
 
           {/* filter categories */}
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 ">
             {experiences?.slice(0, nextItems).map(experience => (
               <div key={experience.id} className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 group cursor-pointer relative flex items-center">
                 {/* First box (1/5 width) */}
                 <div className="w-1/5 bg-[#d3c3b8]">
                   <div className="h-48 flex items-center justify-center transform -rotate-90 font-bold ]">
-                    <div className='w-1/5'></div>
+                    <div className='w-1/5  ' ></div>
                     {experience.title}
                   </div>
                 </div>
@@ -85,7 +85,7 @@ const Experience = () => {
                   <img
                     src={experience.image}
                     alt={experience.title}
-                    className="w-full h-48 object-scale-down rounded-lg"
+                    className="w-full h-48 object-scale-down rounded-lg "
                     onClick={() => showModalHandler(experience.id)}
                   />
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity mr-10px ml-10px ">

@@ -7,8 +7,8 @@ const ExperienceModal = ({ activeID, setShowModal }) => {
 
     // Render modal content if experience is found
     return (
-        <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 bg-[#DDD0C8]">
-            <div className="max-w-[600px] absolute top-1/2 left-1/2 z-20 bg-[#d3c3b8] transform -translate-x-1/2 -translate-y-1/2 overflow-y-auto">
+        <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 ]">
+            <div className="max-w-[600px] absolute top-1/2 left-1/2 z-20  transform -translate-x-1/2 -translate-y-1/2 overflow-y-auto">
                 <div className="!z-5 relative grid grid-col  bg-[#e7ddd8] bg-clip-border p-4 shadow-3xl shadow-shadow-500 ">
                     <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t  bg-[#d3c3b8]  ">
                         <h1 className="text-2xl font-bold-2 text-center">
@@ -23,7 +23,7 @@ const ExperienceModal = ({ activeID, setShowModal }) => {
                     </div>
                     <div className='p-4 md:p-5'>
                         <p className="mt-2 text-xs ">
-                            Here you can find more details about {experience.title} related projects.
+                            Here you can find more details about {experience.title} project.
                         </p>
 
                         <hr className='border-[2px] mt-2 border-[#d3c3b8] '  />
@@ -47,11 +47,11 @@ const ExperienceModal = ({ activeID, setShowModal }) => {
                                     </div>
 
                                     
-                                    <div className="px-6 py-4 mb-auto">
+                                    <div className="px-6 py-4 mb-auto ">
                                         <a href="#" className="font-bold text-lg inline-block text-[#2f2f2f] transition duration-500 ease-in-out  mb-2">
                                             {project.projectTitle}
                                         </a>
-                                        <p className="text-[#323232] text-xs  whitespace-nowrap">
+                                        <p className="text-[#323232] text-xs ">
                                             {project.description}
                                         </p>
                                     </div>

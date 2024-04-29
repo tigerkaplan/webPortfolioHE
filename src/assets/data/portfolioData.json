@@ -3,9 +3,22 @@
     "id": 1,
     "title": "Finance",
     "category": "Web Development",
-    "image": "../../../public/images/portfolio/1.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
-    "technologies": [ "ReactJs"," Js"," Css"],
+    "technologies": [
+      {
+        "type": "languages",
+        "list": ["Html", "Js", "Css"]
+      },
+      {
+        "type": "libraries",
+        "list": ["tailwind"]
+      },
+      {
+        "type": "frameworks",
+        "list": ["react"]
+      }
+    ],
+    "image": "/images/portfolio/1.jpg",
     "siteURL": "https://www.google.com",
     "GitHub": "https://github.com"
   },
@@ -13,19 +26,45 @@
     "id": 2,
     "title": "Orizon",
     "category": "Web Development",
-    "image": "../../../public/images/portfolio/2.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
-    "technologies": [ "ReactJs"," Js"," Css"],
+    "technologies": [
+      {
+        "type": "languages",
+        "list": ["Html", "Reacts", "Css"]
+      },
+      {
+        "type": "libraries",
+        "list": []
+      },
+      {
+        "type": "frameworks",
+        "list": []
+      }
+    ],
+    "image": "/images/portfolio/2.jpg",
     "siteURL": "https://www.google.com",
     "GitHub": "https://github.com"
   },
   {
     "id": 3,
     "title": "Fundo",
-    "category": "Web Design", 
-    "image": "../../../public/images/portfolio/1.jpg",
+    "category": "Web Design",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
-    "technologies": [ "ReactJs"," Js"," Css"],
+    "technologies": [
+      {
+        "type": "languages",
+        "list": ["ReactJs", "Js", "Css"]
+      },
+      {
+        "type": "libraries",
+        "list": []
+      },
+      {
+        "type": "frameworks",
+        "list": []
+      }
+    ],
+    "image": "./images/portfolio/3.jpg",
     "siteURL": "https://www.google.com",
     "GitHub": "https://github.com"
   },
@@ -33,9 +72,22 @@
     "id": 4,
     "title": "Brawlhalla",
     "category": "Web Applications",
-    "image": "../../../public/images/portfolio/1.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
-    "technologies": [ "ReactJs"," Js"," Css"],
+    "technologies": [
+      {
+        "type": "languages",
+        "list": ["ReactJs", "Js", "Css"]
+      },
+      {
+        "type": "libraries",
+        "list": []
+      },
+      {
+        "type": "frameworks",
+        "list": []
+      }
+    ],
+    "image": "/images/portfolio/4.jpg",
     "siteURL": "https://www.google.com",
     "GitHub": "https://github.com"
   },
@@ -43,9 +95,22 @@
     "id": 5,
     "title": "DSM.",
     "category": "Web Design",
-    "image": "../../../public/images/portfolio/1.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
-    "technologies": [ "ReactJs"," Js"," Css"],
+    "technologies": [
+      {
+        "type": "languages",
+        "list": ["ReactJs", "Js"]
+      },
+      {
+        "type": "libraries",
+        "list": []
+      },
+      {
+        "type": "frameworks",
+        "list": []
+      }
+    ],
+    "image": "/images/portfolio/5.jpg",
     "siteURL": "https://www.google.com",
     "GitHub": "https://github.com"
   },
@@ -53,9 +118,22 @@
     "id": 6,
     "title": "MetaSpark",
     "category": "Web Design",
-    "image": "../../../public/images/portfolio/1.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
-    "technologies": [ "ReactJs"," Js"," Css"],
+    "technologies": [
+      {
+        "type": "languages",
+        "list": ["Js", "Css"]
+      },
+      {
+        "type": "libraries",
+        "list": []
+      },
+      {
+        "type": "frameworks",
+        "list": []
+      }
+    ],
+    "image": "/images/portfolio/1.jpg",
     "siteURL": "https://www.google.com",
     "GitHub": "https://github.com"
   },
@@ -63,9 +141,22 @@
     "id": 7,
     "title": "Summary",
     "category": "Web Development",
-    "image": "../../../public/images/portfolio/1.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
-    "technologies": [ "ReactJs"," Js"," Css"],
+    "technologies": [
+      {
+        "type": "languages",
+        "list": ["ReactJs", "Css"]
+      },
+      {
+        "type": "libraries",
+        "list": []
+      },
+      {
+        "type": "frameworks",
+        "list": []
+      }
+    ],
+    "image": "/images/portfolio/2.jpg",
     "siteURL": "https://www.google.com",
     "GitHub": "https://github.com"
   },
@@ -73,9 +164,24 @@
     "id": 8,
     "title": "Task Manager",
     "category": "Web Applications",
-    "image": "../../../public/images/portfolio/1.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
-    "technologies": [ "ReactJs"," Js"," Css"],
+    "technologies": [
+      {
+        "type": "languages",
+        "list": ["ReactJs", "Js", "Css"]
+      },
+      {
+        "type": "libraries",
+        "list": []
+      },
+      {
+        "type": "frameworks",
+        "list":
+
+ []
+      }
+    ],
+    "image": "/images/portfolio/3.jpg",
     "siteURL": "https://www.google.com",
     "GitHub": "https://github.com"
   },
@@ -83,9 +189,22 @@
     "id": 9,
     "title": "Arrival",
     "category": "Web Development",
-    "image": "../../../public/images/portfolio/1.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
-    "technologies": [ "ReactJs"," Js"," Css"],
+    "technologies": [
+      {
+        "type": "languages",
+        "list": ["ReactJs", "Js", "Css"]
+      },
+      {
+        "type": "libraries",
+        "list": []
+      },
+      {
+        "type": "frameworks",
+        "list": []
+      }
+    ],
+    "image": "/images/portfolio/4.jpg",
     "siteURL": "https://www.google.com",
     "GitHub": "https://github.com"
   },
@@ -93,12 +212,23 @@
     "id": 10,
     "title": "Arrival",
     "category": "Web Development",
-    "image": "../../../public/images/portfolio/1.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
-    "technologies": [ "ReactJs"," Js"," Css"],
+    "technologies": [
+      {
+        "type": "languages",
+        "list": ["ReactJs", "Js", "Css"]
+      },
+      {
+        "type": "libraries",
+        "list": []
+      },
+      {
+        "type": "frameworks",
+        "list": []
+      }
+    ],
+    "image": "/images/portfolio/5.jpg",
     "siteURL": "https://www.google.com",
     "GitHub": "https://github.com"
   }
-  
-
 ]
