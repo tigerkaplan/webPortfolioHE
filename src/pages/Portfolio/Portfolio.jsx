@@ -114,8 +114,8 @@ const Portfolio = () => {
                                         <div className='w-full h-full flex items-center justify-center'>
                                             <button
                                                 onClick={() => showModalHandler(portfolio.id)}
-                                                className='text-white hover:bg-#FDF8F0 text-[15px] py-2 px-4 rounded [8px] font-[500] ease-in duration-200'>
-                                                See Details
+                                                className='text-[#282828]hover:bg-#FDF8F0 text-[15px] py-2 px-4 rounded [8px] font-[500] ease-in duration-200'>
+                                                Project details
                                             </button>
                                         </div>
                                     </div>
