@@ -56,36 +56,36 @@ const Navbar = () => {
                     className={
                         !nav
                             ? "hidden"
-                            : "absolute top-0 left-0 w-full h-screen bg-[#DDD0C8] flex flex-col justify-center items-center"
+                            : "absolute top-0 left-0 w-full h-screen bg-[#DDD0C8] flex flex-col justify-center items-center text-center"
                     }
                 >
-                    <li className="py-6 text-4xl"> <NavLink to="/" onClick={handleClick}> Home </NavLink> </li>
-                    <li className="py-6 text-4xl"> <NavLink to="/about" onClick={handleClick}> About </NavLink> </li>
-                    <li className="py-6 text-4xl"> <NavLink to="/experience" onClick={handleClick}> Experience</NavLink> </li>
-                    <li className="py-6 text-4xl"> <NavLink to="/features" onClick={handleClick}> Features </NavLink> </li>
-                    <li className="py-6 text-4xl"> <NavLink to="/portfolio" onClick={handleClick}> Portfolio </NavLink> </li>
-                    <li className="py-6 text-4xl"> <NavLink to="/blog" onClick={handleClick}> Blog </NavLink> </li>
-                    <li className="py-6 text-4xl"> <NavLink to="/contact" onClick={handleClick}> Contact </NavLink> </li>
+                    <li className="py-6 text-4xl hover:shadow  focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] w-full"> <NavLink to="/" onClick={handleClick}> Home </NavLink> </li>
+                    <li className="py-6 text-4xl hover:shadow  focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] w-full"> <NavLink to="/about" onClick={handleClick}> About </NavLink> </li>
+                    <li className="py-6 text-4xl hover:shadow  focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] w-full"> <NavLink to="/experience" onClick={handleClick}> Experience</NavLink> </li>
+                    <li className="py-6 text-4xl hover:shadow  focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] w-full"> <NavLink to="/features" onClick={handleClick}> Features </NavLink> </li>
+                    <li className="py-6 text-4xl hover:shadow  focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] w-full"> <NavLink to="/portfolio" onClick={handleClick}> Portfolio </NavLink> </li>
+                    <li className="py-6 text-4xl hover:shadow  focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] w-full"> <NavLink to="/blog" onClick={handleClick}> Blog </NavLink> </li>
+                    <li className="py-6 text-4xl hover:shadow  focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] w-full"> <NavLink to="/contact" onClick={handleClick}> Contact </NavLink> </li>
                 </ul>
 
                 {/* ------------- Social Icons ------------- */}
                 <div className="hidden md:flex fixed flex-col top-[35%] left-[10px]">
-                  
+                    {/* //FIXME - - social */}
                     <ul>
-                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8] hover:shadow-md hover:shadow-[#040c16] duration-300">
+                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8] duration-300">
                             <a className="flex justify-between items-center w-full" href="#">Linkedin <FaLinkedin size={30} />
                             </a>
                         </li>
-                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8]  hover:shadow-md hover:shadow-[#040c16]  duration-300">
+                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8]  duration-300">
                             <a className="flex justify-between items-center w-full " href="#">                               Github <FaGithub size={30} />
                             </a>
                         </li>
-                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8] hover:shadow-md hover:shadow-[#040c16]  duration-300">
+                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8] duration-300">
                             <a className="flex justify-between items-center w-full " href="#">
                                 Email <HiOutlineMail size={30} />
                             </a>
                         </li>
-                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8] hover:shadow-md hover:shadow-[#040c16] duration-300">
+                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8] duration-300">
                             <a className="flex justify-between items-center w-full " href="#">
                                 Resume <BsFillPersonLinesFill size={30} />
                             </a>
