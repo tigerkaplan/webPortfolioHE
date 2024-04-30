@@ -1,7 +1,7 @@
-import React from "react";
+
 import Data from "../../assets/data/portfolioData.json";
 import PropTypes from "prop-types"; // Import PropTypes for prop validation
-import { FaExternalLinkAlt, FaGithub, FaRegWindowClose, FaWifi} from "react-icons/fa";
+import { FaGithub, FaWifi } from "react-icons/fa";
 
 
 const Modal = ({ activeID, setShowModal }) => {
@@ -40,13 +40,13 @@ const Modal = ({ activeID, setShowModal }) => {
                             <span className='sr-only'></span>
                         </button>
 
-                       </div>
-                       <div className='p-4 md:p-5'>
+                    </div>
+                    <div className='p-4 md:p-5'>
                         <p className="mt-2 text-xs ">
                             Here you can find more details about {portfolio.title} project.
                         </p>
 
-                        <hr className='border-[1px] mt-2 mb-2 border-[#d3c3b8] '  />
+                        <hr className='border-[1px] mt-2 mb-2 border-[#d3c3b8] ' />
 
                         <div>
                             <figure>
@@ -80,20 +80,20 @@ const Modal = ({ activeID, setShowModal }) => {
                                 )}
                             </div>
                             <div className="px-6 py-3 flex flex-row items-center justify-between bg-[#d3c3b8] mt-4">
-                                        <span href="#"
-                                            className='py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center'>
-                                            <span className="ml-1"><a href={portfolio.GitHub}> <FaGithub size={25} /> </a></span>
-                                        </span>
+                                <span href="#"
+                                    className='py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center'>
+                                    <span className="ml-1"><a href={portfolio.GitHub}> <FaGithub size={25} /> </a></span>
+                                </span>
 
 
-                                        <span href="#"
-                                            className="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
-                                            <span className="ml-1"><a href={portfolio.siteURL}>  <FaWifi size={25} className="ml-1" /> </a></span>
-                                        </span>
-                                    </div>
+                                <span href="#"
+                                    className="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
+                                    <span className="ml-1"><a href={portfolio.siteURL}>  <FaWifi size={25} className="ml-1" /> </a></span>
+                                </span>
+                            </div>
 
 
-{/* 
+                            {/* 
                             <a className="flex justify-between items-center w-full " href="#"
                                 onClick={() => setShowModal(false)}
                             >
@@ -103,8 +103,8 @@ const Modal = ({ activeID, setShowModal }) => {
                     </div>
                 </div>
             </div>
-            </div>
-    
+        </div>
+
     );
 };
 
