@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom"
 import Logo from '../../public/logo/husniyeErparunLogo.png';
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaLocationArrow } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -77,12 +77,18 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8]  duration-300">
-                            <a className="flex justify-between items-center w-full " href="#">                               Github <FaGithub size={30} />
+                            <a className="flex justify-between items-center w-full " href="https://github.com/tigerkaplan" >                               
+                            Github <FaGithub size={30} />
+                            </a>
+                        </li>
+                        <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8] duration-300">
+                            <a className="flex justify-between items-center w-full " href="mailto:husniyeerparun.dev@gmail.com">
+                                Email <HiOutlineMail size={30} />
                             </a>
                         </li>
                         <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8] duration-300">
                             <a className="flex justify-between items-center w-full " href="#">
-                                Email <HiOutlineMail size={30} />
+                                Brighton, UK <FaLocationArrow size={30} />
                             </a>
                         </li>
                         <li className="w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-[#d3c3b8] duration-300">
