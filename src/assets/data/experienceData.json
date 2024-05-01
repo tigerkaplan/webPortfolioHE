@@ -136,7 +136,7 @@
     "id": 5,
     "title": "Bootstrap",
     "category": "Libraries",
-    "image": "../../../public/images/experience/Bootstrap.png",
+    "image": "/images/experience/Bootstrap.png",
     "relatedProjects": [
       {
         "projectTitle": "Finance",
