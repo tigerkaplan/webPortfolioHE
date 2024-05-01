@@ -27,6 +27,8 @@ const Home = () => {
               </button>
             </NavLink>
           </div>
+
+    
         </p>
       </div>
     </div>
