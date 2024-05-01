@@ -20,7 +20,7 @@ const Features = () => {
             <div id="features" className="mx-auto max-w-6xl">
               {/* <p className="text-center text-base font-semibold leading-7 text-primary-500 ">Features</p> */}
               <h2 className="text-center font-display font-bold  md:text-4xl text-[#402b4c] text-3xl inline border-b-4 border-[#44195e] sm:text-right">
-              What I do ?  
+                What I do ?
               </h2>
               <ul className="mt-16 grid grid-cols-1 gap-6 text-center text-slate-700 md:grid-cols-3 ">
                 {features.map((feature, index) => (
