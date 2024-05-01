@@ -9,7 +9,7 @@ import About from './pages/About.jsx';
 import Experience from './pages/Experience/Experience.jsx';
 import Features from './pages/Features/Features.jsx';
 import Portfolio from './pages/Portfolio/Portfolio';
-import Blog from './pages/Blog/Blog.jsx';
+// import Blog from './pages/Blog/Blog.jsx';
 import Contact from './pages/Contact/Contact.jsx';
 
 const router = createBrowserRouter([
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
       { path: '/experience', element: <Experience /> },
       { path: '/features', element: <Features /> },
       { path: '/portfolio', element: <Portfolio /> },
-      { path: '/blog', element: <Blog /> },
+      // { path: '/blog', element: <Blog /> },
       { path: '/contact', element: <Contact /> },
     ],
   },

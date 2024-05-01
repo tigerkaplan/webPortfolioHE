@@ -85,7 +85,7 @@ const Contact = () => {
 
         <div className="bg-[#e7ddd8] flex items-center gap-6 justify-center">
           <span className="inline-flex justify-between">
-            <a className="mx-6 my-1" href="mailto:husniyeerparun.dev@gmail.com"><HiOutlineMail size={30} /></a>
+            <a className="mx-6 my-1" href="mailto:husniyeerparun.dev@gmail.com" alt="email" ><HiOutlineMail size={30} /></a>
             <a className="mx-6 my-1" href="https://github.com/tigerkaplan"><FaGithub size={30} /></a>
             <a className="mx-6 my-1" href="https://www.linkedin.com/in/husniyeerparundev/"><FaLinkedin size={30} /></a>
           </span>

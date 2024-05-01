@@ -65,12 +65,12 @@ const Navbar = () => {
                             Portfolio
                         </NavLink>
                     </li>
-                    <li className="">
+                    {/* <li className="">
                         <NavLink to="/blog" className="navbarLink">
 
                             Blog
                         </NavLink>
-                    </li>
+                    </li> */}
                     <li className="">
                         <NavLink to="/contact" className="navbarLink">
 
@@ -128,13 +128,13 @@ const Navbar = () => {
                             Portfolio
                         </NavLink>
                     </li>
-                    <li className="py-6 text-4xl hover:shadow focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] w-full">
+                    {/* <li className="py-6 text-4xl hover:shadow focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] w-full">
 
                         <NavLink to="/blog" onClick={handleClick}>
 
                             Blog
                         </NavLink>
-                    </li>
+                    </li> */}
                     <li className="py-6 text-4xl hover:shadow focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] w-full">
 
                         <NavLink to="/contact" onClick={handleClick}>
