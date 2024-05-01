@@ -24,9 +24,9 @@ const Contact = () => {
     // Create a new object that contains dynamic template parameters
 
     const templateParams = {
-      fromName: name,
-      fromEmail: email,
-      toName: "Husniye",
+      from_name: name,
+      email_id: email,
+      to_name: "Husniye",
       message: message,
     };
 
