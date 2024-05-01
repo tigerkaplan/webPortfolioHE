@@ -1,0 +1,19 @@
+
+[
+    {
+      "title": "Web design",
+      "icon": "/images/icon-design.svg",
+      "description": "The most modern and high-quality design made at a professional level."
+    },
+    {
+      "title": "Web development",
+      "icon": "/images/icon-dev.svg",
+      "description": "High-quality development of sites at the professional level."
+    },
+    {
+      "title": "Digital Marketing",
+      "icon": "/images/icon-app.svg",
+      "description": "Professional development of applications for iOS and Android."
+    }
+
+  ]
