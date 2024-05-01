@@ -2,18 +2,18 @@
 [
     {
       "title": "Web design",
-      "icon": "/images/icon-design.svg",
-      "description": "The most modern and high-quality design made at a professional level."
+      "imageUrl": "/public//images/features/webDesign1.svg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi."
     },
     {
       "title": "Web development",
-      "icon": "/images/icon-dev.svg",
-      "description": "High-quality development of sites at the professional level."
+      "imageUrl": "/public/images/features/webDevelopment.svg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi."
     },
     {
       "title": "Digital Marketing",
-      "icon": "/images/icon-app.svg",
-      "description": "Professional development of applications for iOS and Android."
+      "imageUrl": "/public/images/features/digital-marketing-icon.svg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi."
     }
 
   ]
