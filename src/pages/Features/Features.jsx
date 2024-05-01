@@ -25,8 +25,8 @@ const Features = () => {
               <ul className="mt-16 grid grid-cols-1 gap-6 text-center text-slate-700 md:grid-cols-3 ">
                 {features.map((feature, index) => (
                   <li key={index} className="rounded-xl px-6 py-8 ms-center border border-[#c0a899] ">
-                    <img src={feature.imageUrl} alt="" className="mx-auto h-10 w-10" />
-                    <h3 className="w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group bg-[#d3c3b8] ">{feature.title}</h3>
+                    <img src={feature.imageUrl} alt="" className="h-10 w-10 mb-5" />
+                    <h3 className="w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0  mt-3 rounded hover:shadow font-bold focus:outline-none transition duration-200 group bg-[#d3c3b8] ">{feature.title}</h3>
                     <p className="mt-1.5 text-sm leading-6 text-secondary-500 border border-[#cab5a8]">{feature.description}</p>
                   </li>
                 ))}
