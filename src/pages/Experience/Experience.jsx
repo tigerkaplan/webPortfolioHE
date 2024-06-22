@@ -30,7 +30,7 @@ const Experience = () => {
   }, [selectTab]);
 
   return (
-    <div name="experience" className='w-full h-full min-h-screen bg-[#DDD0C8] text-[#282828]'>
+    <div name="experience" className='w-full h-full min-h-[300vh] bg-[#DDD0C8] text-[#282828]'>
       <div className='max-w-[850px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full'>
         <div className='mt-[90px] max-w-[1000px]' style={{ width: "80%" }}>
           <div className='w-full px-4 grid grid-cols-2 gap-8'>
@@ -45,8 +45,8 @@ const Experience = () => {
               type="button"
               onClick={() => setSelectTab('All')}
               className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] '>
-                All Technologies
-              </button>
+              All Technologies
+            </button>
             <button
               type="button"
               onClick={() => setSelectTab('Languages')}

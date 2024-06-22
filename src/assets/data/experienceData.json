@@ -7,12 +7,12 @@
     "relatedProjects": [
       {
         "projectId": 1,
-        "projectTitle": "Finance",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+        "projectTitle": "mayflyOasis",
+        "description": "The project opens doors for artists to create their own unique havens, where they can effortlessly manage their art, exhibitions, and sales. It's a space tailored to their needs, offering a platform where their creativity can shine. Moreover, it's built with the utmost respect for the privacy and security of both artists and buyers. Artists can confidently showcase their work and conduct business, knowing that their personal information remains safeguarded. Buyers, in turn, can explore and purchase artworks without any worries about their privacy or security being compromised. It's a space designed to empower both artists and art enthusiasts alike, fostering a vibrant and secure community for creative exchange.",
         "technologies": [
           {
             "type": "languages",
-            "list": ["Html", "Js", "Css"]
+            "list": ["Html", "Js", "Css",  "React Js"]
           },
           {
             "type": "libraries",
