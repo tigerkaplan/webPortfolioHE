@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../../public/logo/husniyeErparunLogo.png";
+import Logo from "/public/logo/husniyeErparunLogo.png";
 import {
     FaBars,
     FaTimes,
