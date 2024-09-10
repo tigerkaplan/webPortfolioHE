@@ -159,6 +159,29 @@
     "image": "/images/portfolio/1.jpg",
     "siteURL": "https://bakeryprojectapp2.netlify.app",
     "GitHub": "https://github.com/tigerkaplan/bakeryProject_2"
+  },
+  {
+    "id": 8,
+    "title": "Book App",
+    "category": "Web Applications",
+    "description": "This project is a **React-based web application** designed to allow users to browse, view details of, and manage a personalized list of favorite books. The application fetches book data from an external API and allows users to add or remove books from their favorites list. It leverages several modern React features and libraries such as **React Router DOM v6**, **Context API**, and **Axios**.",
+    "technologies": [
+      {
+        "type": "languages",
+        "list": ["Js", "Tailwind"]
+      },
+      {
+        "type": "libraries",
+        "list": []
+      },
+      {
+        "type": "frameworks",
+        "list": ["React Js"]
+      }
+    ],
+    "image": "/images/portfolio/1.jpg",
+    "siteURL": "https://bookwebsiteapp.netlify.app",
+    "GitHub": "https://github.com/tigerkaplan/bookApp"
   }
   
 ]
