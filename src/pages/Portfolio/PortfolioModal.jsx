@@ -40,7 +40,7 @@ const Modal = ({ activeID, setShowModal }) => {
                 <div className="relative grid grid-cols-1 bg-[#e7ddd8] p-3 shadow-3xl shadow-shadow-500 rounded-lg">
                     <div className="flex items-center justify-between p-3 border-b bg-[#d3c3b8] rounded-t">
                         <h1 className="text-xl font-bold text-center">
-                            Related Projects
+                        {portfolio.title}
                         </h1>
                         <button
                             type="button"
