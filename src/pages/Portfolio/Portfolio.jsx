@@ -9,7 +9,7 @@ const Portfolio = () => {
     const [nextItems, setNextItems] = useState(INITIAL_ITEMS);
     const [portfolios, setPortfolios] = useState(Data);
     const [selectTab, setSelectTab] = useState('All');
-    // modal window
+    // Modal window state
     const [showModal, setShowModal] = useState(false);
     const [activeID, setActiveID] = useState(null);
 
@@ -22,13 +22,12 @@ const Portfolio = () => {
         setActiveID(id);
     };
 
-    // filteredData
+    // Filter portfolios based on selected tab
     useEffect(() => {
         const filterMap = {
             'All': () => Data,
             'Web Applications': () => Data.filter(portfolio => portfolio.category === 'Web Applications'),
             'Web Design': () => Data.filter(portfolio => portfolio.category === 'Web Design'),
-            // 'Web Development': () => Data.filter(portfolio => portfolio.category === 'Web Development'),
         };
 
         setPortfolios(filterMap[selectTab]());
@@ -46,14 +45,15 @@ const Portfolio = () => {
                         </div>
                     </div>
 
-                    {/* categories */}
+                    {/* Categories */}
                     <div className='inline-flex flex-wrap py-1 sm:px-1 sm:space-x-1 rounded text-sm'>
                         {['All', 'Web Applications', 'Web Design'].map((category) => (
                             <button
                                 key={category}
                                 onClick={() => setSelectTab(category)}
                                 aria-label={`Show ${category} Portfolios`}
-                                className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'>
+                                className={`w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group ${selectTab === category ? 'bg-[#c0a899]' : 'hover:bg-[#d3c3b8]'} hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-#c0a899]`}
+                            >
                                 {category}
                             </button>
                         ))}
@@ -64,8 +64,8 @@ const Portfolio = () => {
                         {portfolios?.slice(0, nextItems).map((portfolio, index) => (
                             <div
                                 key={index}
-                                className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 group cursor-pointer relative flex items-center'>
-
+                                className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 group cursor-pointer relative flex items-center'
+                            >
                                 {/* First box (1/5 width) */}
                                 <div className="w-1/5 bg-[#d3c3b8]">
                                     <div className="h-48 flex items-center justify-center transform -rotate-90 font-bold">
