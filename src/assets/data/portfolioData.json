@@ -18,7 +18,7 @@
         "list": ["Bootstrap"]
       }
     ],
-    "image": "/images/portfolio/1.jpg",
+    "image": "/images/portfolio/tastefulTwist.png",
     "siteURL": "https://main--heartfelt-gelato-000b69.netlify.app/",
     "GitHub": "https://leannecodes.github.io/tasteful-twist/"
   },
@@ -41,7 +41,7 @@
         "list": ["Tailwind"]
       }
     ],
-    "image": "/images/portfolio/2.jpg",
+    "image": "/images/portfolio/MayFlyOasis.png",
     "siteURL": "https://mayflyoasis.netlify.app/",
     "GitHub": "https://github.com/Jaycossey/mayflyOasis"
   },
@@ -64,7 +64,7 @@
         "list": []
       }
     ],
-    "image": "./images/portfolio/3.jpg",
+    "image": "/images/portfolio/ReadmeGenerator.png",
     "siteURL": "https://youtu.be/nAfrbzhZkCg",
     "GitHub": "https://github.com/tigerkaplan/readme_generator"
   }
@@ -88,7 +88,7 @@
         "list": ["Tailwind CSS"]
       }
     ],
-    "image": "/images/portfolio/4.jpg",
+    "image": "/images/portfolio/BakeryProject.png",
     "siteURL": "https://bakeryprojectapp.netlify.app",
     "GitHub": "https://github.com/tigerkaplan/bakeryProject"
 },
@@ -112,7 +112,7 @@
       "list": ["React JS"]
     }
   ],
-  "image": "/images/portfolio/1.jpg",
+  "image": "/images/portfolio/BakeryProject2.png",
   "siteURL": "https://bakeryprojectapp2.netlify.app",
   "GitHub": "https://github.com/tigerkaplan/bakeryProject_2"
 },
@@ -135,7 +135,7 @@
         "list": ["Bootstrap"]
       }
     ],
-    "image": "/images/portfolio/5.jpg",
+    "image": "/images/portfolio/DayPlanner.png",
     "siteURL": "https://tigerkaplan.github.io/workDayPlanner/",
     "GitHub": "https://github.com/tigerkaplan/workDayPlanner"
   },
@@ -158,7 +158,7 @@
         "list": ["React JS"]
       }
     ],
-    "image": "/images/portfolio/1.jpg",
+    "image": "/images/portfolio/personalPortfolio.png",
     "siteURL": "https://husniyeerparunportfolio.netlify.app",
     "GitHub": "https://github.com/tigerkaplan/HusniyeErparunWebPortfolio"
 },
@@ -182,7 +182,7 @@
         "list": ["React Js"]
       }
     ],
-    "image": "/images/portfolio/1.jpg",
+    "image": "/public/images/portfolio/bookApp.png",
     "siteURL": "https://bookwebsiteapp.netlify.app",
     "GitHub": "https://github.com/tigerkaplan/bookApp"
   }
