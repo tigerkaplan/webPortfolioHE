@@ -12,7 +12,7 @@ const Features = () => {
           <div className='w-full px-4 grid grid-cols-2 gap-8'>
             <div className='sm:text-right pb-8 pl-4'>
               <h2 className='text-[#402b4c] text-3xl font-bold inline border-b-4 border-[#44195e] sm:text-right'>
-                What I Do
+                What I Do?
               </h2>
             </div>
           </div>
