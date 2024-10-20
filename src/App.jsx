@@ -7,7 +7,8 @@ const App = () => {
   return (
     <>
     <Helmet>
-  <title>Husniye Erparun's Personal Website</title>
+    <title>Husniye Erparun&apos;s Personal Website</title>
+
   <meta 
     name="description" 
     content="Welcome to Husniye Erparun's personal website. Explore my projects, skills, and experiences in web development, programming, and technology." 
