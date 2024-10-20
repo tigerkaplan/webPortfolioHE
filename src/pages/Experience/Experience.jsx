@@ -39,33 +39,34 @@ const Experience = () => {
             </div>
           </div>
           {/* categories */}
-          <div
-            className='inline-flex flex-wrap py-1 sm:px-1 sm:space-x-1  rounded text-sm'>
+
+          <div className='inline-flex flex-wrap py-1 sm:px-1 sm:space-x-1 rounded text-sm'>
             <button
               type="button"
               onClick={() => setSelectTab('All')}
-              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899] '>
+              className={`w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group ${selectTab === 'All' ? 'bg-[#d3c3b8] shadow-lg' : 'hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'} `}
+            >
               All Technologies
             </button>
+
             <button
               type="button"
               onClick={() => setSelectTab('Languages')}
-              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'>
+              className={`w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group ${selectTab === 'Languages' ? 'bg-[#d3c3b8]shadow-lg' : 'hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'} `}
+            >
               Languages
             </button>
-            <button
-              type="button"
-              onClick={() => setSelectTab('Libraries')}
-              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group  hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'>
-              Libraries
-            </button>
+
             <button
               type="button"
               onClick={() => setSelectTab('Frameworks')}
-              className='w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'>
+              className={`w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group ${selectTab === 'Frameworks' ? 'bg-[#d3c3b8]shadow-lg' : 'hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'} `}
+            >
               Frameworks
             </button>
           </div>
+
+
 
           {/* filter categories */}
 
@@ -75,7 +76,7 @@ const Experience = () => {
                 {/* First box (1/5 width) */}
                 <div className="w-1/5 bg-[#d3c3b8]">
                   <div className="h-48 flex items-center justify-center transform -rotate-90 font-bold ]">
-                    <div className='w-1/5  ' ></div>
+                    <div className='w-1/5' ></div>
                     {experience.title}
                   </div>
                 </div>
