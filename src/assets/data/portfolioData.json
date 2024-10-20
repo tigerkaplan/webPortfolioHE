@@ -67,8 +67,7 @@
     "image": "/images/portfolio/ReadmeGenerator.png",
     "siteURL": "https://youtu.be/nAfrbzhZkCg",
     "GitHub": "https://github.com/tigerkaplan/readme_generator"
-  }
-  ,
+  },
   {
     "id": 4,
     "title": "Bakery",
@@ -91,36 +90,36 @@
     "image": "/images/portfolio/BakeryProject.png",
     "siteURL": "https://bakeryprojectapp.netlify.app",
     "GitHub": "https://github.com/tigerkaplan/bakeryProject"
-},
+  },
 
-{
-  "id": 5,
-  "title": "Bakery Project2",
-  "category": "Web Design",
-  "description": "Bakery Project 2 is a sleek and modern website showcasing a range of artisan baked goods. The site highlights delicious pastries, cakes, and breads, with a clean design that offers an inviting and user-friendly experience.",
-  "technologies": [
-    {
-      "type": "languages",
-      "list": ["JavaScript", "Tailwind CSS"]
-    },
-    {
-      "type": "libraries",
-      "list": []
-    },
-    {
-      "type": "frameworks",
-      "list": ["React JS"]
-    }
-  ],
-  "image": "/images/portfolio/BakeryProject2.png",
-  "siteURL": "https://bakeryprojectapp2.netlify.app",
-  "GitHub": "https://github.com/tigerkaplan/bakeryProject_2"
-},
+  {
+    "id": 5,
+    "title": "Bakery Project2",
+    "category": "Web Design",
+    "description": "Bakery Project 2 is a sleek and modern website showcasing a range of artisan baked goods. The site highlights delicious pastries, cakes, and breads, with a clean design that offers an inviting and user-friendly experience.",
+    "technologies": [
+      {
+        "type": "languages",
+        "list": ["JavaScript", "Tailwind CSS"]
+      },
+      {
+        "type": "libraries",
+        "list": []
+      },
+      {
+        "type": "frameworks",
+        "list": ["React JS"]
+      }
+    ],
+    "image": "/images/portfolio/BakeryProject2.png",
+    "siteURL": "https://bakeryprojectapp2.netlify.app",
+    "GitHub": "https://github.com/tigerkaplan/bakeryProject_2"
+  },
   {
     "id": 6,
     "title": "Day Planner",
     "category": "Web Applications",
-    "description":" 'Day Planner' is a web application designed to help users organize their daily schedules efficiently. Built with JavaScript, jQuery, and Bootstrap, this project highlights the ability to create dynamic, responsive interfaces with a focus on functionality and ease of use. The site offers users a clear, intuitive interface for time management, making it a useful tool for personal productivity.",
+    "description": " 'Day Planner' is a web application designed to help users organize their daily schedules efficiently. Built with JavaScript, jQuery, and Bootstrap, this project highlights the ability to create dynamic, responsive interfaces with a focus on functionality and ease of use. The site offers users a clear, intuitive interface for time management, making it a useful tool for personal productivity.",
     "technologies": [
       {
         "type": "languages",
@@ -161,7 +160,7 @@
     "image": "/images/portfolio/personalPortfolio.png",
     "siteURL": "https://husniyeerparunportfolio.netlify.app",
     "GitHub": "https://github.com/tigerkaplan/HusniyeErparunWebPortfolio"
-},
+  },
 
   {
     "id": 8,
@@ -171,7 +170,7 @@
     "technologies": [
       {
         "type": "languages",
-        "list": ["Js", "Tailwind"]
+        "list": ["JavaScript", "Tailwind CSS"]
       },
       {
         "type": "libraries",
@@ -182,9 +181,8 @@
         "list": ["React Js"]
       }
     ],
-    "image": "/public/images/portfolio/bookApp.png",
+    "image": "/images/portfolio/bookApp.png",
     "siteURL": "https://bookwebsiteapp.netlify.app",
     "GitHub": "https://github.com/tigerkaplan/bookApp"
   }
-  
 ]
