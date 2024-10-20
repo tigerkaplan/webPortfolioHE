@@ -3,8 +3,8 @@ import Data from '../../assets/data/portfolioData.json';
 import Modal from './PortfolioModal';
 
 const Portfolio = () => {
-    const INITIAL_ITEMS = 5;
-    const LOAD_MORE_INCREMENT = 3;
+    const INITIAL_ITEMS = 4;
+    const LOAD_MORE_INCREMENT = 4;
 
     const [nextItems, setNextItems] = useState(INITIAL_ITEMS);
     const [portfolios, setPortfolios] = useState(Data);
