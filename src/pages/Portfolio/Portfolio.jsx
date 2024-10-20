@@ -65,6 +65,7 @@ const Portfolio = () => {
                             <div
                                 key={index}
                                 className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 group cursor-pointer relative flex items-center'>
+
                                 {/* First box (1/5 width) */}
                                 <div className="w-1/5 bg-[#d3c3b8]">
                                     <div className="h-48 flex items-center justify-center transform -rotate-90 font-bold">
