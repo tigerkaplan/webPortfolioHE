@@ -3,17 +3,17 @@
     {
       "title": "Web design",
       "imageUrl": "/images/features/webDesign1.svg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi."
+      "description": "I create visually stunning and user-centered websites that embody the essence of a brand. My designs prioritize usability and aesthetic appeal, ensuring each element enhances the user experience. I focus on responsive design, making certain that websites perform beautifully across all devices. Using tools like Figma and Adobe XD, I translate ideas into engaging designs that captivate users."
     },
     {
       "title": "Web development",
       "imageUrl": "/images/features/webDevelopment.svg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi."
+      "description": "I build dynamic and efficient websites that offer seamless interactions and functionality. With expertise in HTML, CSS, and JavaScript, along with frameworks like React and Node.js, I develop clean and maintainable code. My approach includes following best practices for performance and security while integrating APIs and backend services to create interactive web applications that meet user needs."
     },
     {
       "title": "Digital Marketing",
       "imageUrl": "/images/features/digital-marketing-icon.svg",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi."
+      "description": "I design and implement strategies to boost online visibility and attract traffic. Utilizing methods such as search engine optimization (SEO), social media marketing, and content marketing, I engage target audiences effectively. By analyzing data and user behavior, I craft customized marketing campaigns that align with business objectives, helping clients connect with and convert their audience through various digital platforms."
     }
 
   ]
