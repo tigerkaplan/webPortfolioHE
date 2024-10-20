@@ -4,7 +4,6 @@ import './App.css'
 
 import Navbar from './component/Navbar'
 
-
 const App = () => {
 
   return (
@@ -15,6 +14,7 @@ const App = () => {
   <section style={{scrollBehavior: "smooth"}}>
         <Outlet />
   </section>
+
 
 </div>
     </>
