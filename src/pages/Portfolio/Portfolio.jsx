@@ -28,7 +28,7 @@ const Portfolio = () => {
             'All': () => Data,
             'Web Applications': () => Data.filter(portfolio => portfolio.category === 'Web Applications'),
             'Web Design': () => Data.filter(portfolio => portfolio.category === 'Web Design'),
-            'Web Development': () => Data.filter(portfolio => portfolio.category === 'Web Development'),
+            // 'Web Development': () => Data.filter(portfolio => portfolio.category === 'Web Development'),
         };
 
         setPortfolios(filterMap[selectTab]());
@@ -48,7 +48,7 @@ const Portfolio = () => {
 
                     {/* categories */}
                     <div className='inline-flex flex-wrap py-1 sm:px-1 sm:space-x-1 rounded text-sm'>
-                        {['All', 'Web Applications', 'Web Design', 'Web Development'].map((category) => (
+                        {['All', 'Web Applications', 'Web Design'].map((category) => (
                             <button
                                 key={category}
                                 onClick={() => setSelectTab(category)}
