@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "title": "Tasteful Twist ",
+    "title": "Tasteful Twist",
     "category": "Web Applications",
-    "description": "Tasteful Twist is a web app offering diverse global recipes via multiple server-side API integrations. Users can navigate to cuisines like Italian, Greek, and Spanish, view detailed recipes, and save favorites locally. I developed the secure signup/sign-in pages and implemented email communication using EmailJS, enhancing user interaction.",
+    "description": "Tasteful Twist is a web app offering diverse global recipes via multiple server-side API integrations. Users can explore various cuisines like Italian, Greek, and Spanish, view detailed recipes, and save favorites locally. I developed secure signup/sign-in pages and integrated EmailJS for streamlined email communication, enhancing user interaction.",
     "technologies": [
       {
         "type": "languages",
-        "list": ["Html", "Js", "Css"]
+        "list": ["HTML", "JavaScript", "CSS"]
       },
       {
         "type": "libraries",
-        "list": [""]
+        "list": []
       },
       {
         "type": "frameworks",
@@ -26,7 +26,7 @@
     "id": 2,
     "title": "MayflyOasis",
     "category": "Web Applications",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+    "description": "MayFly Oasis is an interactive web platform designed to enhance user engagement through dynamic features and a visually appealing layout. This website serves as a showcase for creativity, offering a user-friendly interface that highlights various functionalities, such as smooth navigation and responsive design. It effectively demonstrates skills in front-end development, including HTML, CSS, and React.Js, while emphasizing usability and aesthetic appeal. The site provides a seamless experience for users, making it a valuable resource for anyone interested in exploring its content.",
     "technologies": [
       {
         "type": "languages",
@@ -49,15 +49,15 @@
     "id": 3,
     "title": "ReadMe Generator",
     "category": "Web Applications",
-    "description": "The README.md file generator is a user-friendly tool designed to effortlessly create professional documents for GitHub. The project includes clear instructions for setup, usage, contributions, and other necessary and optional sections to ensure a polished and professional README file. It is designed to be accessible, making it easy for anyone to understand and utilize the project's functionalities.",
+    "description": "The README.md file generator is a user-friendly tool designed to help developers easily create professional GitHub documentation. It allows users to generate structured README files that include setup instructions, usage details, contribution guidelines, and more. This project demonstrates proficiency in JavaScript and Node.js, highlighting skills in building accessible, functional tools for streamlined project documentation.",
     "technologies": [
       {
         "type": "languages",
-        "list": [ "Js"]
+        "list": ["JavaScript"]
       },
       {
         "type": "libraries",
-        "list": ["Node JS"]
+        "list": ["Node.js"]
       },
       {
         "type": "frameworks",
@@ -65,37 +65,62 @@
       }
     ],
     "image": "./images/portfolio/3.jpg",
-    "siteURL": "",
+    "siteURL": "https://youtu.be/nAfrbzhZkCg",
     "GitHub": "https://github.com/tigerkaplan/readme_generator"
-  },
+  }
+  ,
   {
     "id": 4,
     "title": "Bakery",
     "category": "Web Applications",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+    "description": "A modern bakery web application that showcases various bakery products with an easy-to-navigate interface. It features a clean design and smooth browsing experience for users to explore products, prices, and order details.",
     "technologies": [
       {
         "type": "languages",
-        "list": ["Css", "JS"]
+        "list": ["HTML", "CSS", "JavaScript"]
       },
       {
         "type": "libraries",
-        "list": ["React Js"]
+        "list": ["React JS"]
       },
       {
         "type": "frameworks",
-        "list": ["Tailwind"]
+        "list": ["Tailwind CSS"]
       }
     ],
     "image": "/images/portfolio/4.jpg",
     "siteURL": "https://bakeryprojectapp.netlify.app",
     "GitHub": "https://github.com/tigerkaplan/bakeryProject"
-  },
+},
+
+{
+  "id": 5,
+  "title": "Bakery Project2",
+  "category": "Web Design",
+  "description": "Bakery Project 2 is a sleek and modern website showcasing a range of artisan baked goods. The site highlights delicious pastries, cakes, and breads, with a clean design that offers an inviting and user-friendly experience.",
+  "technologies": [
+    {
+      "type": "languages",
+      "list": ["JavaScript", "Tailwind CSS"]
+    },
+    {
+      "type": "libraries",
+      "list": []
+    },
+    {
+      "type": "frameworks",
+      "list": ["React JS"]
+    }
+  ],
+  "image": "/images/portfolio/1.jpg",
+  "siteURL": "https://bakeryprojectapp2.netlify.app",
+  "GitHub": "https://github.com/tigerkaplan/bakeryProject_2"
+},
   {
-    "id": 5,
+    "id": 6,
     "title": "Day Planner",
     "category": "Web Applications",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+    "description":" 'Day Planner' is a web application designed to help users organize their daily schedules efficiently. Built with JavaScript, jQuery, and Bootstrap, this project highlights the ability to create dynamic, responsive interfaces with a focus on functionality and ease of use. The site offers users a clear, intuitive interface for time management, making it a useful tool for personal productivity.",
     "technologies": [
       {
         "type": "languages",
@@ -115,14 +140,14 @@
     "GitHub": "https://github.com/tigerkaplan/workDayPlanner"
   },
   {
-    "id": 6,
-    "title": "Portfolio",
+    "id": 7,
+    "title": "Personal Portfolio",
     "category": "Web Design",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
+    "description": "This portfolio highlights key projects and web development expertise, showcasing a clean and modern design. It emphasizes simplicity and intuitive navigation, allowing users to easily explore work, technical skills, and professional journey.",
     "technologies": [
       {
         "type": "languages",
-        "list": ["Js", "Tailwind"]
+        "list": ["JavaScript", "Tailwind CSS"]
       },
       {
         "type": "libraries",
@@ -130,36 +155,14 @@
       },
       {
         "type": "frameworks",
-        "list": ["React Js"]
+        "list": ["React JS"]
       }
     ],
     "image": "/images/portfolio/1.jpg",
     "siteURL": "https://husniyeerparunportfolio.netlify.app",
     "GitHub": "https://github.com/tigerkaplan/HusniyeErparunWebPortfolio"
-  },
-  {
-    "id": 7,
-    "title": "Bakery Project2",
-    "category": "Web Design",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat sint earum, iusto laboriosam ullam totam debitis dolores. Sed, nisi.",
-    "technologies": [
-      {
-        "type": "languages",
-        "list": ["Js", "Tailwind"]
-      },
-      {
-        "type": "libraries",
-        "list": []
-      },
-      {
-        "type": "frameworks",
-        "list": ["React Js"]
-      }
-    ],
-    "image": "/images/portfolio/1.jpg",
-    "siteURL": "https://bakeryprojectapp2.netlify.app",
-    "GitHub": "https://github.com/tigerkaplan/bakeryProject_2"
-  },
+},
+
   {
     "id": 8,
     "title": "Book App",
