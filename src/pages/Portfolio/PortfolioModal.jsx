@@ -111,17 +111,18 @@ const Modal = ({ activeID, setShowModal }) => {
 
                             <div className="px-4 py-2 flex flex-row items-center justify-between bg-[#d3c3b8] mt-3">
                                 <span className="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
-                                    <a href={portfolio.GitHub}>
+                                    <a href={portfolio.GitHub} target="_blank" rel="noopener noreferrer">
                                         <FaGithub size={22} />
                                     </a>
                                 </span>
 
                                 <span className="py-1 text-xs font-regular text-gray-900 mr-1 flex flex-row items-center">
-                                    <a href={portfolio.siteURL}>
+                                    <a href={portfolio.siteURL} target="_blank" rel="noopener noreferrer">
                                         <FaWifi size={22} className="ml-1" />
                                     </a>
                                 </span>
                             </div>
+
                         </div>
                     </div>
                 </div>
