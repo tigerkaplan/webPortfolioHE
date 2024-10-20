@@ -44,7 +44,8 @@ const Experience = () => {
             <button
               type="button"
               onClick={() => setSelectTab('All')}
-              className={`w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group ${selectTab === 'All' ? 'bg-[#d3c3b8] shadow-lg' : 'hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'} `}
+              className={`w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group ${selectTab === 'All' ? 'bg-[#d3c3b8] shadow-lg' : 'hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'} ${selectTab === 'ActiveTab' ? 'bg-[#c0a899]' : ''}`}
+
             >
               All Technologies
             </button>
@@ -52,7 +53,8 @@ const Experience = () => {
             <button
               type="button"
               onClick={() => setSelectTab('Languages')}
-              className={`w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group ${selectTab === 'Languages' ? 'bg-[#d3c3b8]shadow-lg' : 'hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'} `}
+              className={`w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group ${selectTab === 'Languages' ? 'bg-[#d3c3b8] shadow-lg' : 'hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'} ${selectTab === 'ActiveTab' ? 'bg-[#c0a899]' : ''}`}
+
             >
               Languages
             </button>
@@ -60,7 +62,8 @@ const Experience = () => {
             <button
               type="button"
               onClick={() => setSelectTab('Frameworks')}
-              className={`w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group ${selectTab === 'Frameworks' ? 'bg-[#d3c3b8]shadow-lg' : 'hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'} `}
+              className={`w-full sm:w-auto mb-1 sm:mb-0 mx-1 sm:mx-0 py-2 px-4 rounded hover:shadow font-bold focus:outline-none transition duration-200 group ${selectTab === 'Frameworks' ? 'bg-[#d3c3b8] shadow-lg' : 'hover:bg-[#d3c3b8] hover:border-[#d3c3b8] text-[#282828] shadow-md shadow-[#c0a899]'} ${selectTab === 'ActiveTab' ? 'bg-[#c0a899]' : ''}`}
+
             >
               Frameworks
             </button>
